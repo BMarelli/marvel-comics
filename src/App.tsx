@@ -12,8 +12,9 @@ import { CharacterInterface, ComicInterface } from './types/Comic';
 import { ApiResponse } from './types/Fetcher'
 
 function App() {
-  const comicFetcher = new Fetcher<ApiResponse<ComicInterface[]>>()
-  const characterFetcher = new Fetcher<ApiResponse<CharacterInterface[]>>()
+  // const comicFetcher = new Fetcher<ApiResponse<ComicInterface[]>>()
+  // const characterFetcher = new Fetcher<ApiResponse<CharacterInterface[]>>()
+  const fetcher = new Fetcher()
 
   return (
     <>
@@ -22,9 +23,9 @@ function App() {
       </header>
       <div className="container">
         <Routes>
-          <Route path="/" element={<Home fetcher={comicFetcher} />} />
-          <Route path="comic/:id" element={<Comics fetcher={comicFetcher} />} />
-          <Route path="character/:id" element={<Characters fetcher={characterFetcher} />} />
+          <Route path="/" element={<Home fetcher={fetcher} />} />
+          <Route path="comic/:id" element={<Comics fetcher={fetcher} />} />
+          <Route path="character/:id" element={<Characters fetcher={fetcher} />} />
         </Routes>
       </div>
     </>

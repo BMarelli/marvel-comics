@@ -6,13 +6,13 @@ import { parseIdfromURI } from '../util/util'
 
 // Types
 import { ComicInterface } from '../types/Comic'
-import { ApiResponse, FetchError } from "../types/Fetcher";
+import { FetchError } from "../types/Fetcher";
 
 // Components
 import { Error } from '../components/error/Error'
 
 interface ComicsProps {
-  fetcher: Fetcher<ApiResponse<ComicInterface[]>>
+  fetcher: Fetcher
 }
 
 export const Comics: React.FC<ComicsProps> = ({ fetcher }) => {
@@ -24,16 +24,10 @@ export const Comics: React.FC<ComicsProps> = ({ fetcher }) => {
   useEffect(() => {
     async function fetchData() {
       try {
-        const res = await fetcher.fetch(`:443/v1/public/comics/${id}?`)
-        const _comic = res.data.results[0]
-        setComic({
-          id: _comic.id,
-          title: _comic.title,
-          thumbnail: _comic.thumbnail,
-          description: _comic.description,
-          characters: { available: _comic.characters.available, items: _comic.characters.items }
-        })
-        setLoading(false)
+        if (id) {
+          setComic(await fetcher.getComic(+id))
+          setLoading(false)
+        }
       } catch (error) {
         if (error instanceof FetchError) setErrorText(error.message)
       }

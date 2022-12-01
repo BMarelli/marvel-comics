@@ -4,7 +4,7 @@ import { Fetcher } from '../util/api';
 
 // Types
 import { ComicInterface } from '../types/Comic';
-import { ApiResponse, FetchError } from "../types/Fetcher";
+import { FetchError } from "../types/Fetcher";
 
 // Components
 import { Comic } from '../components/comic/Comic'
@@ -13,7 +13,7 @@ import { Error } from '../components/error/Error'
 interface HomeProps {
   // offset: number
   // setOffset: React.Dispatch<React.SetStateAction<number>>
-  fetcher: Fetcher<ApiResponse<ComicInterface[]>>
+  fetcher: Fetcher
 }
 
 export const Home: React.FC<HomeProps> = ({ fetcher }) => {
@@ -26,16 +26,7 @@ export const Home: React.FC<HomeProps> = ({ fetcher }) => {
     async function fetchData() {
       if (loading) {
         try {
-          const res = await fetcher.fetch(':443/v1/public/comics?format=comic&', offset)
-          setComics(res.data.results.map(comic => {
-            return {
-              id: comic.id,
-              title: comic.title,
-              description: comic.description,
-              thumbnail: comic.thumbnail,
-              characters: { available: comic.characters.available, items: comic.characters.items }
-            }
-          }))
+          setComics(await fetcher.getComics(offset))
           setLoading(false)
         } catch (error) {
           if (error instanceof FetchError) setErrorText(error.message)
