@@ -1,0 +1,333 @@
+{
+  "code": 200,
+  "status": "Ok",
+  "copyright": "© 2022 MARVEL",
+  "attributionText": "Data provided by Marvel. © 2022 MARVEL",
+  "attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2022 MARVEL</a>",
+  "etag": "2baf3768e9f6a1b4695c5aefad67b346ba704c41",
+  "data": {
+    "offset": 0,
+    "limit": 20,
+    "total": 1,
+    "count": 1,
+    "results": [
+      {
+        "id": 6181,
+        "digitalId": 0,
+        "title": "Ultimate Spider-Man Ultimate Collection Book 1 (Trade Paperback)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": "Collecting the groundbreaking first year of Ultimate Spider-Man in one colossal trade paperback! High school, puberty, first dances - there are many pitfalls to being young. Compound these with intense personal tragedy and super human powers, and you can start to visualize the world of Peter Parker, a.k.a. Spider-Man. Following the murder of his uncle and the Green Goblin's assault on his high school, Peter finds himself on the brink of manhood: getting a job at the Daily Bugle to help support his widowed aunt and taking on extracurricular activities - such as bringing down the Kingpin, the head of organized crime in New York City!",
+        "modified": "2022-07-12T09:02:30-0400",
+        "isbn": "0-7851-2492-6",
+        "upc": "5960612492-00111",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Trade Paperback",
+        "pageCount": 0,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "Collecting the groundbreaking first year of Ultimate Spider-Man in one colossal trade paperback! High school, puberty, first dances - there are many pitfalls to being young. Compound these with intense personal tragedy and super human powers, and you can start to visualize the world of Peter Parker, a.k.a. Spider-Man. Following the murder of his uncle and the Green Goblin's assault on his high school, Peter finds himself on the brink of manhood: getting a job at the Daily Bugle to help support his widowed aunt and taking on extracurricular activities - such as bringing down the Kingpin, the head of organized crime in New York City! Collecting ULTIMATE SPIDER-MAN #1-13.\r\n352 PGS./Rated A ...$24.99"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/6181",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/collection/6181/ultimate_spider-man_ultimate_collection_book_1_trade_paperback?utm_campaign=apiRef&utm_source=074de923ec9ffafe7651fb0668947078"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/1919",
+          "name": "Ultimate Spider-Man Ultimate Collection Book 1 (2007)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/14838",
+            "name": "Ultimate Spider-Man (2000) #12"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/14837",
+            "name": "Ultimate Spider-Man (2000) #11"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/14836",
+            "name": "Ultimate Spider-Man (2000) #10"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/14912",
+            "name": "Ultimate Spider-Man (2000) #8"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/14901",
+            "name": "Ultimate Spider-Man (2000) #7"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/14890",
+            "name": "Ultimate Spider-Man (2000) #6"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/14879",
+            "name": "Ultimate Spider-Man (2000) #5"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/14868",
+            "name": "Ultimate Spider-Man (2000) #4"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/14857",
+            "name": "Ultimate Spider-Man (2000) #3"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/14846",
+            "name": "Ultimate Spider-Man (2000) #2"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/4372",
+            "name": "Ultimate Spider-Man (2000) #1"
+          }
+        ],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2029-12-31T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "1961-01-01T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 9.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/c0/59079911f0fdb",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/c0/59079911f0fdb",
+            "extension": "jpg"
+          },
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/70/4bc5a059dc189",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 10,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/6181/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4736",
+              "name": "Jc",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1909",
+              "name": "Steve Buccellato",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/6694",
+              "name": "Wes Abbot",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/3603",
+              "name": "Albert Deschesne",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/350",
+              "name": "Richard Starkings",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/87",
+              "name": "Mark Bagley",
+              "role": "penciler"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/24",
+              "name": "Brian Michael Bendis",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/210",
+              "name": "Bill Jemas",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13152",
+              "name": "Joe Quesada",
+              "role": "editor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/568",
+              "name": "Art Thibert",
+              "role": "inker"
+            }
+          ],
+          "returned": 10
+        },
+        "characters": {
+          "available": 7,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/6181/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1014991",
+              "name": "Crusher Hogan (Ultimate)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010922",
+              "name": "Electro (Ultimate)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1014974",
+              "name": "George Stacy (Ultimate)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011218",
+              "name": "Harry Osborn (Ultimate)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011203",
+              "name": "Mary Jane Watson (Ultimate)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011010",
+              "name": "Spider-Man (Ultimate)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011128",
+              "name": "Venom (Ultimate)"
+            }
+          ],
+          "returned": 7
+        },
+        "stories": {
+          "available": 29,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/6181/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/528",
+              "name": "Interior #528",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/8038",
+              "name": "Ultimate Spider-Man 1-13",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/8039",
+              "name": "Ultimate Spider-Man 1-13",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/8512",
+              "name": "Ultimate Spider-Man 1-13",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/30293",
+              "name": "",
+              "type": ""
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/30294",
+              "name": "",
+              "type": ""
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/30296",
+              "name": "Previously. . .",
+              "type": "recap"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/30297",
+              "name": "[",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/30298",
+              "name": "[Spidey Letters]",
+              "type": "letters"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/30326",
+              "name": "Previously. . .",
+              "type": "recap"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/30327",
+              "name": "Growing Pains",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/30352",
+              "name": "Previously . . .",
+              "type": "recap"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/30353",
+              "name": "Wannabe",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/30354",
+              "name": "[Spidey Letters]",
+              "type": "letters"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/30366",
+              "name": "Previously . . .",
+              "type": "recap"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/30367",
+              "name": "With Great Power",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/30368",
+              "name": "[Spidey Letters]",
+              "type": "letters"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/30383",
+              "name": "Previously. . .",
+              "type": "recap"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/30384",
+              "name": "Life Lessons",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/30385",
+              "name": "[Spidey Letters]",
+              "type": "letters"
+            }
+          ],
+          "returned": 20
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/6181/events",
+          "items": [],
+          "returned": 0
+        }
+      }
+    ]
+  }
+}

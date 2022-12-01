@@ -1,0 +1,10 @@
+.item {
+  display: flex;
+  background-color: beige;
+  margin: .5rem auto;
+  padding: 3px;
+  border: 3px black solid;
+  width: 23rem;
+  overflow-wrap: break-word;
+  justify-content: space-between;
+}
