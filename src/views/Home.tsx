@@ -11,8 +11,6 @@ import { Comic } from '../components/comic/Comic'
 import { Error } from '../components/error/Error'
 
 interface HomeProps {
-  // offset: number
-  // setOffset: React.Dispatch<React.SetStateAction<number>>
   fetcher: Fetcher
 }
 
@@ -37,7 +35,6 @@ export const Home: React.FC<HomeProps> = ({ fetcher }) => {
   }, [loading, offset, fetcher])
 
   function updateComicsOffset(n: number): void {
-    setLoading(true)
     setOffset(n)
     window.scrollTo({
       top: 0,

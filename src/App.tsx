@@ -8,12 +8,8 @@ import { Home } from './views/Home';
 import { Characters } from './views/Characters';
 import { Comics } from './views/Comics';
 import { Fetcher } from './util/api';
-import { CharacterInterface, ComicInterface } from './types/Comic';
-import { ApiResponse } from './types/Fetcher'
 
 function App() {
-  // const comicFetcher = new Fetcher<ApiResponse<ComicInterface[]>>()
-  // const characterFetcher = new Fetcher<ApiResponse<CharacterInterface[]>>()
   const fetcher = new Fetcher()
 
   return (
